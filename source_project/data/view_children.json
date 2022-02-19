@@ -1,0 +1,24 @@
+﻿{
+  "viewname":"Дети",
+  "columns":
+[  
+  {    
+        "field":"[calc]",
+        "caption":"ФИО",
+        "func":"children_CalcMainFIO(<current>)"
+  },
+  {
+        "field":"BDate",
+        "caption":"Д/р"
+  },
+  {
+        "field":"[calc]",
+        "caption":"Возраст",
+        "func":"children_CalcAge(<current>)"
+  },
+  {
+        "field":"DocumentBirth",
+        "caption":"Свид.рождения"
+  }
+]
+}

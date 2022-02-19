@@ -1,0 +1,78 @@
+{
+  "title":"Клиент",
+  "inputs":
+  [
+  {
+    "field":"FamilyM",
+    "caption":"Фамилия",
+    "default":""
+  },
+  { "field":"NameM",
+    "caption":"Имя",
+    "default":""
+  },
+  {
+    "field":"ParentM",
+    "caption":"Отчество",
+    "default":""
+  },
+  {
+    "field":"PhoneM",
+    "caption":"Телефон",
+    "default":""
+  },
+  {
+    "field":"WhatsAppM",
+    "caption":"WhatsApp",
+    "default":""
+  },
+  {
+    "field":"PassportM",
+    "caption":"Паспорт",
+    "default":""
+  },
+  {
+    "field":"Email",
+    "caption":"Электронная почта",
+    "default":""
+  },
+  {
+    "field":"City",
+    "caption":"Город",
+    "default":"",
+    "control":"combo",
+    "combosource":"[func]::getListCities()"
+  },
+  {
+    "field":"District",
+    "caption":"Район",
+    "default":""
+  },
+  {
+    "field":"Living",
+    "caption":"Адрес проживания",
+    "default":""
+  },
+  {
+    "field":"Registration",
+    "caption":"Адрес регистрации",
+    "default":""
+  },
+  {
+    "field":"MemberCard",
+    "caption":"Карта клиента",
+    "default":""
+  },
+  {
+    "field":"Paydate",
+    "caption":"Дата оплаты",
+    "default":""
+  },
+  {
+    "field":"Remark",
+    "caption":"Примечание",
+    "default":"",
+    "control":"memo"
+  }
+  ]
+}

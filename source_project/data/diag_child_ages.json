@@ -1,0 +1,16 @@
+﻿{
+  "diagname":"Число детей по возрастам",
+  "groupfunc":"count",  
+  "source":"join",  
+  "groupcolumn":
+  {    
+        "field":"[calc]",
+        "caption":"Возраст",
+        "func":"children_CalcAge(<current>)"
+  },    
+  "calccolumn":
+  {
+        "field":"id",
+        "caption":""      
+  }
+}

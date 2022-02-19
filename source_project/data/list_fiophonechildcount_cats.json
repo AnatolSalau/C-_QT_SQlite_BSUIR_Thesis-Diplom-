@@ -1,0 +1,34 @@
+{
+  "viewname":"Клиенты по категориям - ФИО, телефон, число детей",
+  "sortfunc":"client_lessThen(<left>,<right>)",
+  "filterfunc":"filter_Cat(<obj>,<filter>)",
+  "filter":[
+    {
+        "caption":"Категория",
+        "name":"Catname"
+    }
+  ],
+  "columns":
+[  
+  {    
+        "field":"[calc]",
+        "caption":"ФИО",
+        "func":"client_CalcMainFIO(<current>)"
+  },    
+  {
+        "field":"[calc]",
+        "caption":"Телефон",
+        "func":"client_FormatPhone(<current>,'8(XXX)XXX-XX-XX')"
+  },
+  {
+        "field":"[calc]",
+        "caption":"Категория",
+        "func":"client_CalcCategoriesSep(<current>,',')"
+  },
+  {
+        "field":"[calc]",
+        "caption":"Детей",
+        "func":"client_CalcChildCount(<current>)"
+  }
+]
+}

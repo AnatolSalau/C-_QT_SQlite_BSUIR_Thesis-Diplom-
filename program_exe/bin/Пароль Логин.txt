@@ -1,0 +1,4 @@
+program\bin\ChildCenter.exe
+
+admin
+123456

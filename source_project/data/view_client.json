@@ -1,0 +1,41 @@
+﻿{
+  "viewname":"Клиенты",
+  "sortfunc":"client_lessThen(<left>,<right>)",
+  "columns":
+[  
+  {    
+        "field":"[calc]",
+        "caption":"ФИО",
+        "func":"client_CalcMainFIO(<current>)"
+  },
+  {
+        "field":"City",
+        "caption":"Город"
+  },
+  {
+        "field":"District",
+        "caption":"Район"
+  },
+  {
+        "field":"Living",
+        "caption":"Адрес"
+  },
+  {
+	"field":"[calc]",
+        "caption":"Категории",
+        "func":"client_CalcCategories(<current>)"
+  },
+  {
+        "field":"PhoneM",
+        "caption":"Телефон"
+  },
+  {
+        "field":"MemberCard",
+        "caption":"№ карты"
+  },
+  {
+        "field":"Paydate",
+        "caption":"Оплата"
+  }
+]
+}

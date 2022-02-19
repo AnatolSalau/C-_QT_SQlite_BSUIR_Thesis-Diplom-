@@ -1,0 +1,36 @@
+{
+  "title":"Ребенок",
+  "inputs":
+  [
+  {
+    "field":"Family",
+    "caption":"Фамилия",
+    "default":""
+  },
+  { "field":"Name",
+    "caption":"Имя",
+    "default":""
+  },
+  {
+    "field":"Parent",
+    "caption":"Отчество",
+    "default":""
+  },
+  {
+    "field":"DocumentBirth",
+    "caption":"Свидетельство о рождении",
+    "default":""
+  },
+  {
+    "field":"BDate",
+    "caption":"Дата рождения",
+    "default":""
+  },
+  {
+    "field":"Remark",
+    "caption":"Примечание",
+    "default":"",
+    "control":"memo"
+  }
+  ]
+}

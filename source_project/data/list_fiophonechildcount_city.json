@@ -1,0 +1,33 @@
+{
+  "viewname":"Клиенты по городу - ФИО, телефон, число детей",
+  "sortfunc":"client_lessThen(<left>,<right>)",
+  "filterfunc":"filter_City(<obj>,<filter>)",
+  "filter":[
+    {
+        "caption":"Город",
+        "name":"City"
+    }
+  ],
+  "columns":
+[  
+  {    
+        "field":"[calc]",
+        "caption":"ФИО",
+        "func":"client_CalcMainFIO(<current>)"
+  },    
+  {
+        "field":"[calc]",
+        "caption":"Телефон",
+        "func":"client_FormatPhone(<current>,'8(XXX)XXX-XX-XX')"
+  },
+  {
+        "field":"City",
+        "caption":"Город"
+  },
+  {
+        "field":"[calc]",
+        "caption":"Детей",
+        "func":"client_CalcChildCount(<current>)"
+  }
+]
+}

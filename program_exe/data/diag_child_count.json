@@ -1,0 +1,22 @@
+﻿{
+  "diagname":"Число детей в семьях",
+  "groupfunc":"count",
+  "filterfunc":"filter_City(<obj>,<filter>)",
+  "filter":[
+    {
+        "caption":"Город",
+        "name":"City"
+    }
+  ],
+  "groupcolumn":
+  {    
+        "field":"[calc]",
+        "caption":"Число детей",
+        "func":"client_CalcChildCount(<current>)"
+  },    
+  "calccolumn":
+  {
+        "field":"id",
+        "caption":""      
+  }
+}
